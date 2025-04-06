@@ -1,0 +1,7 @@
+def greet(name):print("Hello,",name) 
+name=input("Enter your name: ")  
+greet(name)
+if name=="Alice" :print("Welcome, Alice!")  
+else: print("Welcome, stranger!") 
+for i in range(5):  print(i," ",end='') 
+print("Done!")
